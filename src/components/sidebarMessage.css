@@ -1,0 +1,5 @@
+.message-wrapper:hover {
+    background: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
