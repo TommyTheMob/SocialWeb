@@ -1,16 +1,17 @@
 import {FC} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import Sidebar from "../components/Sidebar.tsx";
+import NewsList from "../components/NewsList.tsx";
 
 const HomePage: FC = () => {
     return (
         <Container>
             <Row>
-                <Col className='border border-1 col-3'>
+                <Col className='col-2'>
                     <Sidebar />
                 </Col>
-                <Col className='border border-1'>
-                    News
+                <Col className='p-0'>
+                    <NewsList />
                 </Col>
             </Row>
         </Container>

@@ -1,0 +1,5 @@
+.sidebar-menu-item:hover {
+    background: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}

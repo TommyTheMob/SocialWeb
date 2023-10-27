@@ -1,8 +1,8 @@
 import {FC} from 'react';
 import {Container} from "react-bootstrap";
 import CurrentUser from "./CurrentUser.tsx";
-import SidebarMessages from "./SidebarMessages.tsx";
-import SidebarMenu from "./SidebarMenu.tsx";
+import SidebarMessages from "./sidebarMessages/SidebarMessages.tsx";
+import SidebarMenu from "./sidebarMenu/SidebarMenu.tsx";
 
 const Sidebar: FC = () => {
     return (

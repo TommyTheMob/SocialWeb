@@ -5,7 +5,7 @@ import './sidebarMessage.css'
 const SidebarMessage: FC = () => {
 
     return (
-        <Container className='message-wrapper d-flex align-items-center justify-content-start text-muted my-1 py-1'>
+        <Container className='w-100 message-wrapper d-flex align-items-center justify-content-start text-muted my-1 py-1'>
             <div
                 style={{
                     position: 'relative'
